@@ -15,9 +15,9 @@ public class UserPersonalInfo {
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "personal_id")
-	private Long personal_id;
+	private Long personalId;
 	@Column(name = "user_id")
-	private Long user_id;
+	private Long userId;
 	@Column(name = "fname")
 	private String fname;
 	@Column(name = "age")
@@ -25,41 +25,40 @@ public class UserPersonalInfo {
 	@Column(name = "gender")
 	private String gender;
 	@Column(name = "height_cm")
-	private int height_cm;
+	private int heightCm;
 	@Column(name = "weight_kg")
-	private int weight_kg;
+	private int weightKg;
 	@Column(name = "created_at")
-	private Date created_at;
+	private Date createdAt;
 	
 	public UserPersonalInfo() {}
-	
-	public UserPersonalInfo(Long personal_id, Long user_id, String fname, int age, String gender, int height_cm,
-			int weight_kg, Date created_at) {
-		
-		this.personal_id = personal_id;
-		this.user_id = user_id;
+
+	public UserPersonalInfo(Long personalId, Long userId, String fname, int age, String gender, int heightCm,
+			int weightKg, Date createdAt) {
+		this.personalId = personalId;
+		this.userId = userId;
 		this.fname = fname;
 		this.age = age;
 		this.gender = gender;
-		this.height_cm = height_cm;
-		this.weight_kg = weight_kg;
-		this.created_at = created_at;
+		this.heightCm = heightCm;
+		this.weightKg = weightKg;
+		this.createdAt = createdAt;
 	}
 
-	public Long getPersonal_id() {
-		return personal_id;
+	public Long getPersonalId() {
+		return personalId;
 	}
 
-	public void setPersonal_id(Long personal_id) {
-		this.personal_id = personal_id;
+	public void setPersonalId(Long personalId) {
+		this.personalId = personalId;
 	}
 
-	public Long getUser_id() {
-		return user_id;
+	public Long getUserId() {
+		return userId;
 	}
 
-	public void setUser_id(Long user_id) {
-		this.user_id = user_id;
+	public void setUserId(Long userId) {
+		this.userId = userId;
 	}
 
 	public String getFname() {
@@ -86,28 +85,28 @@ public class UserPersonalInfo {
 		this.gender = gender;
 	}
 
-	public int getHeight_cm() {
-		return height_cm;
+	public int getHeightCm() {
+		return heightCm;
 	}
 
-	public void setHeight_cm(int height_cm) {
-		this.height_cm = height_cm;
+	public void setHeightCm(int heightCm) {
+		this.heightCm = heightCm;
 	}
 
-	public int getWeight_kg() {
-		return weight_kg;
+	public int getWeightKg() {
+		return weightKg;
 	}
 
-	public void setWeight_kg(int weight_kg) {
-		this.weight_kg = weight_kg;
+	public void setWeightKg(int weightKg) {
+		this.weightKg = weightKg;
 	}
 
-	public Date getCreated_at() {
-		return created_at;
+	public Date getCreatedAt() {
+		return createdAt;
 	}
 
-	public void setCreated_at(Date created_at) {
-		this.created_at = created_at;
+	public void setCreatedAt(Date createdAt) {
+		this.createdAt = createdAt;
 	}
 
 }

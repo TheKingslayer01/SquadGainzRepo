@@ -13,7 +13,7 @@ import com.example.squadgainzapi.EntityPojos.UserPersonalInfo;
 @Repository
 public interface PersonalInfoRepository extends JpaRepository<UserPersonalInfo, Long> {
 
-    @Query("SELECT u FROM UserPersonalInfo u WHERE u.user_id = :user_id")
-    List<UserPersonalInfo> findByUserid(@Param("user_id") Long user_id);
+    @Query("SELECT u FROM UserPersonalInfo u WHERE u.userId = :userId")
+    List<UserPersonalInfo> findByUserid(@Param("userId") Long userId);
 
 }

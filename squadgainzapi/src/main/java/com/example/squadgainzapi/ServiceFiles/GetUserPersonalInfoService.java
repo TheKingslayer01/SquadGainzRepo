@@ -15,7 +15,7 @@ public class GetUserPersonalInfoService {
 	 	@Autowired
 	    private PersonalInfoRepository personalInfoRepository;
 
-	    public List<UserPersonalInfo> getPersonalInfoById(Long user_id) {
-	        return personalInfoRepository.findByUserid(user_id);
+	    public List<UserPersonalInfo> getPersonalInfoById(Long userId) {
+	        return personalInfoRepository.findByUserid(userId);
 	    }
 }

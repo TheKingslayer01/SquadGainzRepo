@@ -1036,3 +1036,31 @@
 2024-09-08 21:01:54,333 [Worker-168: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-09-08 21:01:54,336 [Worker-168: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-09-08 21:01:54,338 [Worker-168: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Squad Gainz\squadgainzapi\src\test\resources
+2024-09-08 22:21:10,185 [Worker-168: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-08 22:21:10,187 [Worker-168: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-08 22:21:10,189 [Worker-168: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Squad Gainz\squadgainzapi\src\test\resources
+2024-09-08 22:21:56,155 [Worker-168: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-08 22:21:56,162 [Worker-168: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-08 22:21:56,164 [Worker-168: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Squad Gainz\squadgainzapi\src\test\resources
+2024-09-08 22:24:48,926 [Worker-171: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-08 22:24:48,933 [Worker-171: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-08 22:24:48,935 [Worker-171: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Squad Gainz\squadgainzapi\src\test\resources
+2024-09-08 22:29:02,640 [Worker-173: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-08 22:29:02,644 [Worker-173: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-08 22:29:02,646 [Worker-173: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Squad Gainz\squadgainzapi\src\test\resources
+2024-09-08 22:30:31,976 [Worker-173: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-08 22:30:31,980 [Worker-173: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-08 22:30:31,981 [Worker-173: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Squad Gainz\squadgainzapi\src\test\resources
+2024-09-08 22:34:27,438 [Worker-175: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-08 22:34:27,446 [Worker-175: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-08 22:34:27,448 [Worker-175: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Squad Gainz\squadgainzapi\src\test\resources
+2024-09-08 22:34:55,439 [Worker-177: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-08 22:34:55,446 [Worker-177: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-08 22:34:55,447 [Worker-177: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Squad Gainz\squadgainzapi\src\test\resources
+2024-09-08 22:37:10,658 [Worker-172: Launching SquadgainzapiApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:squadgainzapi:0.0.1-SNAPSHOT @ C:\Squad Gainz\squadgainzapi\pom.xml.
+2024-09-08 22:37:11,228 [Worker-172: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-08 22:37:11,229 [Worker-172: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-08 22:37:11,233 [Worker-172: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Squad Gainz\squadgainzapi\src\test\resources
+2024-09-08 22:42:38,124 [Worker-180: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-09-08 22:42:38,136 [Worker-180: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-09-08 22:42:38,139 [Worker-180: Launching SquadgainzapiApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Squad Gainz\squadgainzapi\src\test\resources

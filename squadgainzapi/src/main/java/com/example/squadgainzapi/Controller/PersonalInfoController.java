@@ -20,9 +20,9 @@ public class PersonalInfoController {
 	@Autowired
     private GetUserPersonalInfoService getUserPersonalInfoService;
 
-    @GetMapping("/{user_id}")
-    public ResponseEntity<List<UserPersonalInfo>> getPersonById(@PathVariable Long user_id) {
-    	List<UserPersonalInfo> userPersonalInfo = getUserPersonalInfoService.getPersonalInfoById(user_id);
+    @GetMapping("/{userId}")
+    public ResponseEntity<List<UserPersonalInfo>> getPersonById(@PathVariable Long userId) {
+    	List<UserPersonalInfo> userPersonalInfo = getUserPersonalInfoService.getPersonalInfoById(userId);
     	if (userPersonalInfo.isEmpty()) {
             return ResponseEntity.notFound().build();
         }
