@@ -1,0 +1,5 @@
+package com.example.squadgainzapi.repository;
+
+public interface PersonalInfoRepository {
+
+}
