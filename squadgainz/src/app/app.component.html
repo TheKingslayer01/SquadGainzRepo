@@ -1,0 +1,17 @@
+<nav class="navbar">
+    <div class="logo">
+        <img src="logo.png" alt="Logo" width="50"> <!-- Replace with your actual logo -->
+    </div>
+    <ul>
+        <li><a [routerLink]="['/home']">Home</a></li>
+        <li><a [routerLink]="['/profile']">Profile</a></li>
+        <li><a [routerLink]="['/settings']">Settings</a></li>
+        <li><a [routerLink]="['/logout']">Logout</a></li>
+    </ul>
+    <div class="button-group">
+        <a href="#" class="button primary">Action 1</a>
+        <a href="#" class="button secondary">Action 2</a>
+    </div>
+</nav>
+<!-- Routed Components will appear here -->
+<router-outlet></router-outlet> <!-- Moved outside of <nav> -->

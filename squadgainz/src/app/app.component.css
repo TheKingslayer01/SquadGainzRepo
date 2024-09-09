@@ -1,0 +1,120 @@
+/* General reset */
+body, h1, h2, p, ul, form, input, label, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+.navbar {
+    position: relative;  /* Ensure navbar isn't overlapping with other elements */
+    z-index: 1;          /* Make sure navbar is above content */
+  }
+  
+  .entry-section {
+    position: relative;  /* Ensure this section isn’t covering up the navbar */
+    z-index: 0;
+  }
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.button-group {
+    display: flex;
+}
+
+.button-group .button {
+    padding: 10px 20px;
+    border: 2px solid #f03b60;
+    text-decoration: none;
+    color: #f03b60;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.button-group .button.primary {
+    background-color: #f03b60;
+    color: white;
+}
+
+/* Entry Section */
+.entry-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.form-field {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f03b60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e02a50;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .button-group .button {
+        padding: 8px 16px;
+    }
+}
